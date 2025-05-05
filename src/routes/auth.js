@@ -1,0 +1,1 @@
+﻿module.exports = require('express').Router().get('/test', (req, res) => res.json({ message: 'Auth works!' }));
